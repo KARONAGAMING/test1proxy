@@ -1,5 +1,5 @@
 
-name: CI
+name: KARONA
 
 on: workflow_dispatch
 
