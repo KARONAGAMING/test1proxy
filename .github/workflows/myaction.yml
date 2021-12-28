@@ -1,5 +1,5 @@
 
-name: KARONA
+name: CI
 
 on: workflow_dispatch
 
@@ -7,7 +7,7 @@ jobs:
   build:
 
     runs-on: windows-latest
-    timeout-minutes: 999999999
+    timeout-minutes: 9999999
 
     steps:
     - name: Download Ngrok & NSSM
